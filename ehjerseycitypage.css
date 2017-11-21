@@ -1,0 +1,221 @@
+/* Start of Eugene's CSS file */
+
+.body {
+    background-color: #d5b6b6;
+    padding-top:0px;
+    margin: 0;
+}
+
+.ehnav ul {
+    display: block;
+    list-style-type: none;
+    margin: 0;
+    width: 120px;
+    height: 470px;
+    background-color: #f3eaea; position: fixed;
+    justify-content: space-between;
+}
+
+.ehnav li {
+    display: block;
+    padding-right: 25px;
+    padding-left: 25px;
+    padding-top: 17px;
+    text-decoration: none;
+}
+
+.ehnav a:hover {
+    color: red;
+}
+
+.ehnavbar a {
+    text-decoration: none;
+}
+
+.p {
+    font-family: 'Lato', sans-serif; 
+}
+
+.ehtop h2 {
+    text-align: left;
+}
+
+.ehtop {
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 10px;
+    height: 350;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: inherit;
+}
+
+.ehtopimage {
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 10px;
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: #FFFFFF;
+}
+
+.ehhero h2 {
+    text-align: left;
+}
+
+.ehhero {
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 10px;
+    height: 350;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: inherit;   
+}
+
+.ehheroimage {
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 10px;
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: #FFFFFF;
+}
+
+.ehbottom h2 {
+    text-align: left;
+}
+
+.ehbottom {
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 10px;
+    height: 350;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: inherit;   
+}
+
+.ehbottomhref {
+  background-position: center;
+    background-repeat: no-repeat;
+    padding: 10px;
+    height: 350;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: inherit;  
+}
+
+.eh {
+    background-size: cover;
+    background-repeat: no-repeat;
+     background-image: url('/group/images');
+    height: 450px;
+    margin-left: 110px;
+    padding-top: 20px;
+    text-align: center;
+    color: white;
+    font-size: 30px;
+}
+
+.ehfooterhref {
+    display: block;
+    margin-left: 100px;
+    border-bottom: solid;
+    border-bottom-width: thick;
+    border-bottom-style: double;
+    align-content: center;
+    text-align: center;
+}
+
+.h1 {
+    font-size: 350%;
+    font-family: 'Lato', sans-serif;
+}
+
+.h1 a {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.h2 { 
+    font-size: 175%;
+    font-family: 'Kreon', sans-serif;
+}
+
+.h2 a {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+/* CSS footer code */
+
+.ehfa {
+    padding: 20px;
+    font-size: 30px;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+}
+
+/* Twitter */
+.fa-twitter {
+    background: #55ACEE;
+    color: white;
+}
+
+/* Facebook */
+.ehfa-facebook {
+    background: #3B5998;
+    color: white;
+}
+
+/* Snapchat */
+.ehfa-snapchat-ghost {
+  background: #fffc00;
+  color: white;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;}
+/* Youtube */
+.fa-youtube {
+  background: #bb0000;
+  color: white;
+}
+
+/* Instagram */
+.ehfa-instagram {
+  background: #125688;
+    color: white;
+}
+
+.ehfooter {
+    padding: 0px;
+    margin: 20px; 
+}
+
+/* End of Eugene's CSS file */
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+ 
+
