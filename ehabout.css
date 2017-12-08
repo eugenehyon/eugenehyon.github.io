@@ -3,15 +3,16 @@ body {
     padding-top:0px;
     margin: 0;
 }
-
+ 
 li {
-    display: inline-block;
-    padding: 25px 17px;
-    margin-left: 12px;
-    margin-right: 12px;
-    text-align: center;
-    justify-content: space-between;
-    font-size: 18px;
+     display: inline-block;
+     padding: 25px 17px;
+     margin-left: 12px;
+     margin-right: 12px;
+     text-align: center;
+     font-size: 18px;
+     justify-content: space-between;
+     font-style: normal;
 }
 
 .ehnavbarcontainer {
@@ -31,48 +32,76 @@ li {
     padding-top: 8px;
     padding-bottom: 8px;
     height: 20%;
-    width: 100%; 
+    width: 100%;
     text-align: center;
     font-family: 'Lato', sans-serif;
 }
 
 .ehnavbar a {
     text-decoration: none;
-    padding: inherit;
 }
 
 .ehnavbar a:hover {
     color: red;
 }
 
-.ehnavbar ul {
+.ehnavul {
     display: inline-block;
     list-style-type: none;
     margin: 0;
-    width: 100px;
+    width: 120px;
     height: 400px;
     background-color: #f3eaea;   
     position: relative;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 
-.p {
-    font-family:  'Lato', sans-serif;
-}
-
-.eh img {
-    width: 50%;
-    float: none;
-    margin: 25px;
-    position: relative;
-}
-
-.eh li {
+.ehnavli {
+    display: inline-block;
+    padding: 25px 17px;
     text-decoration: none;
     text-align: center;
 }
 
+.p {
+    font-family: 'Lato', sans-serif; 
+}
+
+.photocontainer {
+    display: inline-block;
+    flex-direction: column;
+    column-count: 4;
+    width: 100%;
+    justify-content: space-around;
+    position: relative;
+}
+
+img {
+    justify-content: space-between;
+}
+
+photolist {
+    display: inline-table;
+    flex-direction: column-count;
+    column-count: 4;
+    padding: 18px 18px;
+    position: relative;
+    justify-content: space-between;
+    margin: 0px;
+    text-align: center;
+}
+
+.eh li {
+    text-decoration: none;
+}
+
 /*Font from googlefonts*/
+
+.h4 {
+    font-family: 'Kreon', serif;
+    font-size: 20px;    
+}
+
 /*Font downloaded off the internet from tiff file*/
 
 h1 {
@@ -87,15 +116,17 @@ h1 a {
 
 h2 {
     font-size: 100%;
-    font-family: 'UpperWestSide', sans-serif;
+    font-family: sans-serif;
 }
 
-/*This is the css code for the footer*/
+/*this is the css code for the footer*/
 
 .ehfooter {
     text-align: center;
     margin-left: 0;
-    padding: 20px;
+    border-bottom: solid;
+    border-bottom-width: thick;
+    border-bottom-style: double;
 }
 
 .ehfa {
@@ -137,6 +168,21 @@ h2 {
   background: #125688;
     color: white;
 }
+
+.ehfooter {
+    padding: 20px;
+    margin: 20px; 
+}
+
+
+
+
+
+
+
+
+
+
 
 
 
